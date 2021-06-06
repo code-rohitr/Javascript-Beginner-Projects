@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: 100vh;
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn{
+    font-size: 1.4rem;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+/* after adding js */
+
+
+.darkModeStyle{
+    background-color: black;
+    color: white;
+    transition: 500ms;
+}
