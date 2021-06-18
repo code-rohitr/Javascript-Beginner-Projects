@@ -1,0 +1,103 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfe6e9;
+}
+
+.container{
+    background-color: #2d3436;
+    color: white;
+    width: 300px;
+    padding: 40px 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 30px 0px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+
+.inputfield{
+    position: relative;
+}
+
+/* .inputfield label{
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    color: white;
+    transition: all 200ms ease-in-out;
+    font-size: 1.2rem;
+    cursor: text;
+} */
+
+.label{
+        position: absolute;
+        top: 35px;
+        left: 0px;
+        color: rgb(196, 196, 196);
+        transition: all 200ms ease-in-out;
+        font-size: 1.2rem;
+        cursor: text;
+        z-index: 1;
+}
+
+/* .inputfield input:focus  ~ .label,
+.inputfield input:valid  ~ .label{
+    top: 0;
+    font-size: 1rem;
+    color:  #4ab1ff;
+    cursor: default;
+} */
+
+
+
+
+.inputfield input{
+    height: 30px;
+    width: 100%;
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 1.5px solid white;
+    font-size: 1.2rem;
+    color: white;
+    margin: 20px 0px;
+    padding: 5px 0px;
+    z-index: 2;
+}
+
+.btn{
+    background-color: #0984e3;
+    border: none;
+    outline: none;
+    padding: 8px 16px ;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+
+/* after javascipt  */
+
+.animate{
+    top: 0;
+    font-size: 1rem;
+    color:  #4ab1ff;
+    cursor: default;
+}
+
