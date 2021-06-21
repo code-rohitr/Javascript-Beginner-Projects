@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+}
+
+.heading{
+    height: 10vh;
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: #a29bfe;
+    font-weight: 500;
+}
+
+.heading h1{
+    font-size: 3rem;
+}
+
+
+/* styling the notes containers */
+
+.notes-container{
+    /* border: 2px solid red; */
+    width: 1000px;
+    margin: auto;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text-input{
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    outline: none;
+
+}
+
+.add-btn{
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* js implementation */
+
+
+.container{
+    /* background-color: grey; */
+    height: auto;
+    width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+/* styling the Individual note div */
+
+.notes{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.note{
+    border: 2px solid rgba(0, 0, 0, 0.212);
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 250px;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font: 1rem;
+    margin: 10px;
+    justify-content: center;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.note-para{
+    margin-bottom: 10px;
+}
+
+.note-btn{
+    background-color: #0984e3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.error{
+    border: 2px solid #d63031;
+    transition: border 200ms ease-in-out;
+}
